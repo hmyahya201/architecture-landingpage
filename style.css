@@ -332,3 +332,79 @@ small{
     text-align: center;
     color:var(--description-color);
 }
+
+
+
+
+/* MOBILE RESPONSIVNESS */
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    .navbar{
+        flex-direction: column;
+    }
+    .logo{
+        font-size: 20px;
+    }
+    .nav-menu{
+        flex-direction: column;
+    }
+    .nav-link{
+        font-size: 16px;
+    }
+    .hero-arae{
+        margin-top: 50px;
+    }
+    .hearo-title{
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .section{
+        margin-top: 50px;
+    }
+    .feature-details{
+        text-align: center;
+    }
+    .feature-container-wrapper{
+        flex-direction: column;
+    }
+    .feature-img-section{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .feature_title{
+        font-size: 35px;
+        text-align: center;
+    }
+    .feature_description{
+        text-align: center;
+    }
+    .feature-love-and-enjoy-section{
+        text-align: center;
+    }
+    .love-and-enjoy-container-wrapper{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .love-and-anjoy_content{
+        width: 100%;
+    }
+    .love-and-enjoy_title{
+        font-size: 35px;
+    }
+    .love-and-anjoy_img{
+        width: 100%;
+    }
+    .facts_title{
+        font-size: 35px;
+        margin-bottom: 12px;
+    }
+    .facts-box-container{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .sponstrs_title{
+        font-size: 35px;
+    }
+    .brand-container-box{
+        flex-direction: column;
+        gap: 30px;
+    }
+}
